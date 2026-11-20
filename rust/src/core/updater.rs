@@ -12,7 +12,7 @@ use std::path::Path;
 /// GitHub deposu sahibi.
 pub const REPO_OWNER: &str = "Stegizm";
 /// GitHub depo adi.
-pub const REPO_NAME: &str = "SwiftX";
+pub const REPO_NAME: &str = "SwiftX-Rust";
 
 #[derive(Debug, Deserialize)]
 struct GhRelease {

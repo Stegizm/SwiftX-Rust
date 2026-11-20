@@ -6,8 +6,8 @@
 
 Rust ile yazılmıştır · [tao](https://crates.io/crates/tao) + [wry](https://crates.io/crates/wry) · Linux & Windows
 
-[![Release](https://img.shields.io/github/v/release/Stegizm/SwiftX?sort=semver&color=blueviolet)](https://github.com/Stegizm/SwiftX/releases)
-[![Build](https://github.com/Stegizm/SwiftX/actions/workflows/release.yml/badge.svg)](https://github.com/Stegizm/SwiftX/actions/workflows/release.yml)
+[![Release](https://img.shields.io/github/v/release/Stegizm/SwiftX-Rust?sort=semver&color=blueviolet)](https://github.com/Stegizm/SwiftX-Rust/releases)
+[![Build](https://github.com/Stegizm/SwiftX-Rust/actions/workflows/release.yml/badge.svg)](https://github.com/Stegizm/SwiftX-Rust/actions/workflows/release.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20windows-2ea44f.svg)](#kurulum)
 
@@ -45,7 +45,7 @@ Rust ile yazılmıştır · [tao](https://crates.io/crates/tao) + [wry](https://
 
 ### Hazır paketler (önerilir)
 
-[Releases](https://github.com/Stegizm/SwiftX/releases) sayfasından işletim sistemine uygun dosyayı indir:
+[Releases](https://github.com/Stegizm/SwiftX-Rust/releases) sayfasından işletim sistemine uygun dosyayı indir:
 
 | Platform | Dosya |
 | --- | --- |
@@ -68,7 +68,7 @@ Zip dosyasını çıkar ve `swiftx.exe` dosyasını çalıştır.
 ### Kaynaktan derleme
 
 ```bash
-git clone https://github.com/Stegizm/SwiftX.git
+git clone https://github.com/Stegizm/SwiftX-Rust.git
 cd SwiftX/rust
 cargo build --release
 ./target/release/swiftx

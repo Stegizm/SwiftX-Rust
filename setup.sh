@@ -25,7 +25,7 @@ set -euo pipefail
 
 cd "$(dirname "$(readlink -f "$0")")"
 
-REPO_NAME="${REPO_NAME:-SwiftX}"
+REPO_NAME="${REPO_NAME:-SwiftX-Rust}"
 VISIBILITY="${VISIBILITY:-public}"
 TAG="${TAG:-v0.3.0}"
 REMOTE="${REMOTE:-origin}"
